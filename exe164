@@ -1,0 +1,21 @@
+import java.util.*;
+public class add_all_method 
+{
+public static void main(String args[])
+{
+	ArrayList<String> a = new ArrayList<String>();  
+	  a.add("anu");  
+	  a.add("abi");  
+	  a.add("mathu");  
+	  ArrayList<String> al=new ArrayList<String>();  
+	  al.add("sangee");  
+	  al.add("sowmiya");  
+	  a.addAll(al);    
+	  Iterator i = a.iterator();  
+	  while(i.hasNext())
+	  {  
+	   System.out.println(i.next());  
+	  }  
+}
+}
+
