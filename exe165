@@ -1,0 +1,21 @@
+import java.util.*;
+public class remove_all_method 
+{
+public static void main(String args[])
+{
+	ArrayList<String> a = new ArrayList<String>();  
+	  a.add("anu");  
+	  a.add("Abi");  
+	  a.add("mathu");  
+	  ArrayList<String> al = new ArrayList<String>();  
+	  al.add("sowmiya");  
+	  al.add("reena");  
+	  a.removeAll(al);  
+	  System.out.println("Iterating the elements after removing the elements of al");  
+	  Iterator i=a.iterator();  
+	  while(i.hasNext())
+	  {  
+	   System.out.println(i.next());  
+	  }  
+}
+}
