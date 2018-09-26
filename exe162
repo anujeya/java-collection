@@ -1,0 +1,15 @@
+import java.util.*;
+public class for_each_loop 
+{
+public static void main(String args[])
+{
+	ArrayList<String> a = new ArrayList<String>();  
+	  a.add("ANU");  
+	  a.add("MATHU");  
+	  a.add("LAARANYA");  
+	  a.add("SANGEE");  
+	  for(String str:a)  
+	  System.out.println(str);  
+
+}
+}
